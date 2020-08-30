@@ -8201,6 +8201,32 @@ literate=%
 % \endgroup
 %
 %
+% \subsection{Rust}
+%
+%
+% \begingroup
+%    \begin{macrocode}
+%<*lang2>
+%    \end{macrocode}
+%    \begin{macrocode}
+\lst@definelanguage{Rust}{%
+    morekeywords={as,break,const,continue,crate,else,enum,extern,false,%
+        fn,for,if,impl,in,let,loop,match,mod,move,mut,pub,ref,return,Self,%
+        self,static,struct,super,trait,true,type,unsafe,use,where,while,%
+        abstract,alignof,become,box,do,final,macro,offsetof,override,priv,%
+        proc,pure,sizeof,typeof,unsized,virtual,yield},%
+   sensitive=true,%
+   morecomment=[l]{//},%
+   morecomment=[l]{///},%
+   morecomment=[s]{/*}{*/},%
+   morestring=[b]{"},%
+  }[keywords,comments,strings]%
+%    \begin{macrocode}
+%</lang2>
+%    \end{macrocode}
+% \endgroup
+%
+%
 % \subsection{Scilab}
 %
 % Thanks go to \lstthanks{Jean-Philippe~Grivet}{grivet@cnrs-orleans.fr}
